@@ -26,6 +26,12 @@ The Steering Members, General Members, and Contributors acknowledge that they ma
  - [ ] **Review Agenda**
  - [ ] **Approve Previous Meeting Minutes** 
 
+## Focus Group Updates
+- [ ] Workload Orchestration Agent Interfaces
+- [ ] Observability requirements
+- [ ] App Package definitions
+- [ ] Device Requirements
+
 ## [Review Project Board]()
 - [ ] Add work items to review or discuss from the project board/roadmap
 
