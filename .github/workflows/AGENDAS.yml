@@ -35,7 +35,7 @@ jobs:
           GH_REPO: ${{ github.repository }}
           TITLE: Technical Sync Meeting
           ASSIGNEES: ajcraig
-          LABELS: agenda
+          LABELS: Agenda
           BODY: |
             ## Date: DD MM YYYY Time 4:00pm CET - [See the time in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Technical+Sync+Meeting&iso=20240516T16&p1=37&ah=2)
               - Chair: Armand Craig (Rockwell) - @ajcraig
