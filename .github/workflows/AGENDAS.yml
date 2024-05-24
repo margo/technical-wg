@@ -22,7 +22,7 @@ jobs:
               gh issue unpin "$previous_issue_number"
             fi
           fi
-          meeting_date=$(date +"%m-%d-%y" -d "next thu")
+          meeting_date=\date +"%m-%d-%y" -d "next thu"\
           new_issue_url=$(gh issue create \
             --title "$meeting_date Technical Sync Meeting" \
             --assignee "$ASSIGNEES" \
