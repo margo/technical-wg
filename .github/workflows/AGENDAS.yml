@@ -22,7 +22,7 @@ jobs:
               gh issue unpin "$previous_issue_number"
             fi
           fi
-          meeting_date=`date +"%m-%d-%y" -d "next thu"`
+          meeting_date=`date +"%d-%m-%y" -d "next thu"`
           new_issue_url=$(gh issue create \
             --title "$meeting_date Technical Sync Meeting" \
             --assignee "$ASSIGNEES" \
@@ -37,10 +37,6 @@ jobs:
           ASSIGNEES: ajcraig
           LABELS: Agenda
           BODY: |
-            ## Date: DD MM YYYY Time 4:00pm CET - [See the time in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Technical+Sync+Meeting&iso=20240516T16&p1=37&ah=2)
-              - Chair: Armand Craig (Rockwell) - @ajcraig
-              - Project Management: Jory Burson (Linux Foundation) - @jorydotcom
-
             ## Meeting notices
 
             ### Antitrust Policy
@@ -48,12 +44,15 @@ jobs:
 
             **Reminder - Meeting is recorded**
 
+              - Chair: Armand Craig (Rockwell) - @ajcraig
+              - Project Management: Jory Burson (Linux Foundation) - @jorydotcom
+
             ## Agenda
              - [ ] **Convene & Welcome New Participants**
              - [ ] **Review Agenda**
              - [ ] **Approve Previous Meeting Minutes** 
 
-            ## [Review Project Board]()
+            ## [Review Project Board](https://github.com/orgs/margo/projects/7)
               - [ ] Add work items to review or discuss from the project board/roadmap
 
             ## [Review PRs](https://github.com/margo/specification/pulls) 
