@@ -22,7 +22,7 @@ jobs:
               gh issue unpin "$previous_issue_number"
             fi
           fi
-          meeting_date=`date +"%Y-%m-%d" -d "next tu"`
+          meeting_date=`date +"%Y-%m-%d" -d "next Tuesday"`
           new_issue_url=$(gh issue create \
             --title "$meeting_date Observability Focus Group Meeting" \
             --assignee "$ASSIGNEES" \
