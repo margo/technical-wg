@@ -34,7 +34,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
-          ASSIGNEES: ajcraig
+          ASSIGNEES: phil-abb
           LABELS: Agenda
           BODY: |
             ## Meeting notices
@@ -44,7 +44,7 @@ jobs:
 
             **Reminder - Meeting is recorded**
 
-              - Chair: Armand Craig (Rockwell) - @ajcraig
+              - Chair: Philip Presson (ABB) - @phil-abb
               - Project Management: Jory Burson (Linux Foundation) - @jorydotcom
 
             ## Agenda
