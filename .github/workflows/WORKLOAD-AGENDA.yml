@@ -1,0 +1,73 @@
+
+name: Workload Orchestration Agent Meeting
+on:
+  schedule:
+    - cron: 20 07 * * 5
+  workflow_dispatch: 
+
+jobs:
+  create_issue:
+    name: Create focus group issue
+    runs-on: ubuntu-latest
+    permissions: write-all
+    steps:
+      - name: Create focus group issue
+        run: |
+          if [[ $CLOSE_PREVIOUS == true ]]; then
+            previous_issue_number=$(gh issue list \
+              --label "$LABELS" \
+              --json number \
+              --jq '.[0].number')
+            if [[ -n $previous_issue_number ]]; then
+              gh issue close "$previous_issue_number"
+              gh issue unpin "$previous_issue_number"
+            fi
+          fi
+          meeting_date=`date +"%Y-%m-%d" -d "next Tuesday"`
+          new_issue_url=$(gh issue create \
+            --title "$meeting_date Workload Orchestration Agent Interfaces Focus Group Meeting" \
+            --assignee "$ASSIGNEES" \
+            --label "$LABELS" \
+            --body "$BODY")
+          if [[ $PINNED == true ]]; then
+            gh issue pin "$new_issue_url"
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          ASSIGNEES: ajcraig
+          LABELS: Agenda
+          BODY: |
+            ## Meeting notices
+
+            ### Antitrust Policy
+            The Steering Members, General Members, and Contributors acknowledge that they may compete with one another in various lines of business and that it is therefore imperative that they and their respective representatives act in a manner that does not violate any applicable antitrust laws and regulations. Each Steering Member, General Member, and Contributor may have similar agreements with others. Each Steering Member, General Member, and Contributor may design, develop, manufacture, acquire or market competitive deliverables, products and services, and conduct its business, in whatever way it chooses. No Steering Member, General Member, or Contributor is obligated to announce or market any products or services associated with or based on the Project. Without limiting the generality of the foregoing, the Steering Members, General Members, and Contributors agree not to have any discussion relating to any product pricing, methods or channels of product distribution, division of markets, allocation of customers or any other topic that should not be discussed among competitors.
+
+            **Reminder - Meeting is recorded**
+
+              - Chair: Armand Craig (Rockwell) - @ajcraig
+              - Project Management: Jory Burson (Linux Foundation) - @jorydotcom
+
+            ## Agenda
+             - [ ] **Convene & Welcome New Participants**
+             - [ ] **Review Agenda**
+             - [ ] **Approve Previous Meeting Minutes** 
+
+            ## [Review Project Board](https://github.com/orgs/margo/projects/3)
+              - [ ] Add work items to review or discuss from the project board/roadmap
+
+            ## [Review PRs](https://github.com/margo/specification/pulls) 
+              - [ ] Add PRs that need review, approval or discussion
+
+            ## [Review Issues](https://github.com/margo/specification/issues) 
+              - [ ] Add issues that need review, assignment, triage, or other clarification
+
+            ## AOB
+              - [ ] Add any other items that were raised for discussion
+
+            ## Items for next meeting
+              - [ ] Add any items that should be covered in the next meeting
+
+            ## Adjournment
+          PINNED: false
+          CLOSE_PREVIOUS: false
