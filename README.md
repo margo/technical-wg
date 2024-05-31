@@ -1,9 +1,9 @@
 # Technical Working Group Repository
 Repository for Technical Working Group facilitation
-* Location to view the meeting agenda and minutes for technical working sessions
+* Location to view the meeting agenda and minutes for technical working sessions.
     * These are auto generated as an issue within this repository every week per focus group. Focus group leads should edit the agenda post auto creation to inform attendees of topics to be discussed. 
-    * Meeting minutes are attached to the Meeting agenda MDs then the issue is 
-* General Information regarding the current Focus groups and planned focus groups for the Margo Release 1 System Design
+    * Meeting minutes are attached to the Meeting agenda MDs then the issue is closed for record keeping.
+* General Information regarding the current Focus groups and planned focus groups for the Margo Release 1 System Design.
 
 ## Overall Margo Release 1 Github Project
 * https://github.com/orgs/margo/projects/7
