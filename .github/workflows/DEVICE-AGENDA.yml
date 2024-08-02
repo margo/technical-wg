@@ -1,5 +1,5 @@
 
-name: Device Requirements Meeting
+name: Device Management Requirements Meeting
 on:
   schedule:
     - cron: 20 07 * * 5
@@ -23,9 +23,9 @@ jobs:
               gh issue unpin "$previous_issue_number"
             fi
           fi
-          meeting_date=`date +"%Y-%m-%d" -d "next Wednesday"`
+          meeting_date=`date +"%Y-%m-%d" -d "next Monday"`
           new_issue_url=$(gh issue create \
-            --title "$meeting_date Device Requirements Focus Group Meeting" \
+            --title "$meeting_date Device Management Requirements Meeting" \
             --assignee "$ASSIGNEES" \
             --label "$LABELS" \
             --body "$BODY")
@@ -35,7 +35,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
-          ASSIGNEES: merrill-harriman-se
+          ASSIGNEES: ajcraig
           LABELS: Agenda
           BODY: |
             ## Meeting notices
@@ -45,7 +45,7 @@ jobs:
 
             **Reminder - Meeting is recorded**
 
-              - Chair: Merrill Harriman (Schneider Electric) - @merrill-harriman-se
+              - Chair: Armand Craig (Rockwell Automation) - @ajcraig
               - Project Management: Jory Burson (Linux Foundation) - @jorydotcom
 
             ## Agenda
