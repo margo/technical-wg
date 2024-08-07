@@ -22,15 +22,6 @@ Below are details regarding the current focus groups, leads, meeting information
     * [Workload Orchestration Agent](https://github.com/margo/specification/blob/pre-draft/system-design/app-interoperability/workload-orchestration-agent.md)
     * [Device Capability Discovery](https://github.com/margo/specification/blob/pre-draft/system-design/app-interoperability/device-capability-discovery.md)
     * [Orchestrator App Config and Deploy](https://github.com/margo/specification/blob/pre-draft/system-design/app-interoperability/orchestator-app-config-deploy.md)
-### FG: Observability requirements
-* Focus Group Lead
-    * Philip Presson(philip.presson@us.abb.com) 
-* Focus Group Meeting Details
-    * Tuesdays, 3PM CET
-* Associated Github Project to track activites
-    * https://github.com/orgs/margo/projects/4
-* Associated Mardowns within specification repository
-     * [Observability](https://github.com/margo/specification/blob/pre-draft/system-design/app-interoperability/observability.md)
 ### FG: Application Package definitions
 * Focus Group Lead
     * Arne Broering(arne.broering@siemens.com)
@@ -40,15 +31,24 @@ Below are details regarding the current focus groups, leads, meeting information
     * https://github.com/orgs/margo/projects/5
 * Associated Mardowns within specification repository
     * [Application Package Definition](https://github.com/margo/specification/blob/pre-draft/system-design/app-interoperability/application-package-definition.md)
-### FG: Device Requirements
+### FG: Device Requirements (Meetings Currently Paused)
 * Focus Group Lead
     * Merrill Harriman(merrill.harriman@se.com) 
 * Focus Group Meeting Details
-    * Wednesdays, 3PM CET
+    * Paused
 * Associated Github Project to track activites
     * https://github.com/orgs/margo/projects/6
 * Associated Mardowns within specification repository
     * [Device Requirements](https://github.com/margo/specification/blob/pre-draft/system-design/device-interoperability/device-requirements.md)
+### FG: Observability requirements (Meetings Currently Paused)
+* Focus Group Lead
+    * Philip Presson(philip.presson@us.abb.com) 
+* Focus Group Meeting Details
+    * Paused
+* Associated Github Project to track activites
+    * https://github.com/orgs/margo/projects/4
+* Associated Mardowns within specification repository
+     * [Observability](https://github.com/margo/specification/blob/pre-draft/system-design/app-interoperability/observability.md)
 
 ## Future Planned Focus Group Details
 Note: These are theoretical focus groups that ensure coverage for the full envisioned system design within Margo. We are looking for volunteers/contributers within these focus groups. 
