@@ -1,7 +1,5 @@
 name: Observability Meeting
 on:
-  schedule:
-    - cron: 20 07 * * 5
   workflow_dispatch: 
 
 jobs:
