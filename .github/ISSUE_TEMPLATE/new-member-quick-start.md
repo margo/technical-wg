@@ -2,7 +2,7 @@
 name: New Member Quick Start
 about: Provides a quick checklist for onboarding Members
 title: "\U0001F389 Welcome {{yourname}}"
-labels: ''
+labels: Onboarding
 assignees: jorydotcom
 
 ---
