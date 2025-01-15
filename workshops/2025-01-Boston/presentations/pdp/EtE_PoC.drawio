@@ -1,0 +1,328 @@
+<mxfile host="65bd71144e" pages="3">
+    <diagram id="jRNFFETprJHWr_L_O-vm" name="Prototype Detailed">
+        <mxGraphModel dx="1213" dy="750" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="RrkrSk89X-_QpqKJVX2L-9" value="device: K3s VM" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;labelBackgroundColor=default;align=center;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="371" width="430" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="RrkrSk89X-_QpqKJVX2L-1" value="wos.local: K3s VM" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;labelBackgroundColor=default;align=center;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="50" width="410" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="RrkrSk89X-_QpqKJVX2L-3" value="Gogs VM" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;labelBackgroundColor=default;align=center;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="230" width="340" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#7EA6E0;" parent="1" source="YO4oisgLw1l5CsfKT37m-34" target="YO4oisgLw1l5CsfKT37m-1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="285" y="363" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="275" y="417"/>
+                            <mxPoint x="264" y="417"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="RrkrSk89X-_QpqKJVX2L-10" value="Device Management Client" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=11;fontColor=#000000;strokeColor=#000000;fillColor=none;align=center;verticalAlign=top;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="234" y="411" width="240" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="RrkrSk89X-_QpqKJVX2L-17" value="GitHub&amp;nbsp;OCI&lt;br&gt;Registry" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="650" y="30" width="130" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="RrkrSk89X-_QpqKJVX2L-18" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;fontColor=#000000;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="RrkrSk89X-_QpqKJVX2L-17" target="RrkrSk89X-_QpqKJVX2L-9" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-50" y="480" as="sourcePoint"/>
+                        <mxPoint x="10" y="485" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="724" y="446"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="RrkrSk89X-_QpqKJVX2L-19" value="Helm Chart&lt;br&gt;Docker Images" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontColor=#000000;" parent="RrkrSk89X-_QpqKJVX2L-18" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0793" y="-2" relative="1" as="geometry">
+                        <mxPoint x="-6" y="-206" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-1" value="gitops_client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" parent="1" vertex="1">
+                    <mxGeometry x="244" y="441" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-2" value="agent_operator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" parent="1" vertex="1">
+                    <mxGeometry x="359" y="441" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#7EA6E0;strokeWidth=2;" parent="1" source="YO4oisgLw1l5CsfKT37m-32" target="YO4oisgLw1l5CsfKT37m-4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="145" y="253" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="YO4oisgLw1l5CsfKT37m-4" target="YO4oisgLw1l5CsfKT37m-5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-4" value="gitops_pull" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" parent="1" vertex="1">
+                    <mxGeometry x="235" y="160" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="YO4oisgLw1l5CsfKT37m-5" target="YO4oisgLw1l5CsfKT37m-7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-5" value="orchestration service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="160" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YO4oisgLw1l5CsfKT37m-6" target="YO4oisgLw1l5CsfKT37m-5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-6" value="orchestration portal" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="90" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-7" value="gitops_push" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="160" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="YO4oisgLw1l5CsfKT37m-14" target="YO4oisgLw1l5CsfKT37m-5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="575" y="330"/>
+                            <mxPoint x="400" y="330"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-14" value="Device&lt;br&gt;Capabilities" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#7EA6E0;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="381" width="70" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-32" value="Application Package Git Repositories" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="49" y="260" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-21" value="" style="group;strokeColor=none;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="85" y="298.5" width="90" height="68.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-17" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#7EA6E0;strokeColor=#FFFFFF;" parent="YO4oisgLw1l5CsfKT37m-21" vertex="1">
+                    <mxGeometry width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-18" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#7EA6E0;strokeColor=#FFFFFF;" parent="YO4oisgLw1l5CsfKT37m-21" vertex="1">
+                    <mxGeometry x="4" y="5" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-19" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#7EA6E0;strokeColor=#FFFFFF;" parent="YO4oisgLw1l5CsfKT37m-21" vertex="1">
+                    <mxGeometry x="9" y="10" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-20" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#7EA6E0;strokeColor=#FFFFFF;" parent="YO4oisgLw1l5CsfKT37m-21" vertex="1">
+                    <mxGeometry x="13" y="15" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-34" value="Desired State Git Repositories" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="205" y="260" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-35" value="" style="group;strokeColor=none;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="241" y="298.5" width="90" height="68.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-36" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#7EA6E0;strokeColor=#FFFFFF;" parent="YO4oisgLw1l5CsfKT37m-35" vertex="1">
+                    <mxGeometry width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-37" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#7EA6E0;strokeColor=#FFFFFF;" parent="YO4oisgLw1l5CsfKT37m-35" vertex="1">
+                    <mxGeometry x="4" y="5" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-38" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#7EA6E0;strokeColor=#FFFFFF;" parent="YO4oisgLw1l5CsfKT37m-35" vertex="1">
+                    <mxGeometry x="9" y="10" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-39" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#7EA6E0;strokeColor=#FFFFFF;" parent="YO4oisgLw1l5CsfKT37m-35" vertex="1">
+                    <mxGeometry x="13" y="15" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-40" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="631" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-41" value="Key" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="25" y="596" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-42" value="Implementation Detail" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="626" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-44" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7EA6E0;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="665" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-45" value="Margo Specification" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="660" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="YO4oisgLw1l5CsfKT37m-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.007;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#7EA6E0;strokeWidth=2;" parent="1" source="YO4oisgLw1l5CsfKT37m-7" target="YO4oisgLw1l5CsfKT37m-34" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="532" y="290"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="coyob9iYdWIeE31MWj5S" name="WoS Details">
+        <mxGraphModel dx="1213" dy="1850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="wAj2Fj4kqgVoYcOP3Q3Q-1" value="wos.local: K3s VM" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;labelBackgroundColor=default;align=center;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="33" width="840" height="427" as="geometry"/>
+                </mxCell>
+                <mxCell id="wAj2Fj4kqgVoYcOP3Q3Q-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="wAj2Fj4kqgVoYcOP3Q3Q-3" target="wAj2Fj4kqgVoYcOP3Q3Q-5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="wAj2Fj4kqgVoYcOP3Q3Q-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="wAj2Fj4kqgVoYcOP3Q3Q-5" target="wAj2Fj4kqgVoYcOP3Q3Q-10" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="500" y="683" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="wAj2Fj4kqgVoYcOP3Q3Q-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="wAj2Fj4kqgVoYcOP3Q3Q-7" target="wAj2Fj4kqgVoYcOP3Q3Q-5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="402.5" y="243" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="wAj2Fj4kqgVoYcOP3Q3Q-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="wAj2Fj4kqgVoYcOP3Q3Q-8" target="wAj2Fj4kqgVoYcOP3Q3Q-10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="wAj2Fj4kqgVoYcOP3Q3Q-10" value="rabbitmq" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="338" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="wAj2Fj4kqgVoYcOP3Q3Q-15" value="pod" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;verticalAlign=top;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="250.5" width="190" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="wAj2Fj4kqgVoYcOP3Q3Q-17" value="pod" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="255.5" width="160" height="185" as="geometry"/>
+                </mxCell>
+                <mxCell id="wAj2Fj4kqgVoYcOP3Q3Q-18" value="pod" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="307.5" y="60" width="190" height="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="wAj2Fj4kqgVoYcOP3Q3Q-16" value="pod" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="307.5" y="250.5" width="190" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="wAj2Fj4kqgVoYcOP3Q3Q-7" value="orchestration portal" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="317.5" y="88" width="170" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="wAj2Fj4kqgVoYcOP3Q3Q-14" value="Language: Go&lt;div&gt;&lt;br&gt;Primary Libraries:&lt;/div&gt;&lt;div&gt;- gin&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="348.75" y="123" width="107.5" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="wAj2Fj4kqgVoYcOP3Q3Q-3" value="gitops_pull" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="283" width="170" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="wAj2Fj4kqgVoYcOP3Q3Q-9" value="Language: Go&lt;div&gt;&lt;br&gt;Primary Libraries:&lt;/div&gt;&lt;div&gt;- go-git&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="303" width="110" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="wAj2Fj4kqgVoYcOP3Q3Q-5" value="orchestration service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="283" width="165" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="wAj2Fj4kqgVoYcOP3Q3Q-12" value="Language: Go&lt;div&gt;&lt;br&gt;Primary Libraries:&lt;/div&gt;&lt;div&gt;- gin&lt;/div&gt;&lt;div&gt;- rabbitmq&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="348.75" y="313" width="107.5" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="wAj2Fj4kqgVoYcOP3Q3Q-20" value="pod" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="310" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="wAj2Fj4kqgVoYcOP3Q3Q-8" value="gitops_push" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;align=center;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="290.5" width="140" height="135" as="geometry"/>
+                </mxCell>
+                <mxCell id="wAj2Fj4kqgVoYcOP3Q3Q-13" value="Language: Go&lt;div&gt;&lt;br&gt;Primary Libraries:&lt;/div&gt;&lt;div&gt;- go-git&lt;/div&gt;&lt;div&gt;- rabbitmq&lt;/div&gt;&lt;div&gt;- k8s.io/apimachinery&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="735" y="318" width="125" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="HCA6MgcSXJYA6LkpT8CB-3" value="&lt;b&gt;go-git&lt;/b&gt; -&amp;nbsp;https://github.com/go-git/go-git&lt;br&gt;&lt;br&gt;Git client library because used to communicate with the Gogs git server" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="480" width="560" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="HCA6MgcSXJYA6LkpT8CB-5" value="&lt;b&gt;gin&lt;/b&gt; -&amp;nbsp;https://github.com/gin-gonic/gin&lt;br&gt;&lt;br&gt;Web framework to make it easier to create web application" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="560" width="560" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="HCA6MgcSXJYA6LkpT8CB-6" value="&lt;b&gt;k8s.io/apimachinery&lt;/b&gt; -&amp;nbsp;&amp;nbsp;https://pkg.go.dev/k8s.io/apimachinery&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22gin%20-%26amp%3Bnbsp%3Bhttps%3A%2F%2Fgithub.com%2Fgin-gonic%2Fgin%26lt%3Bbr%26gt%3B%26lt%3Bbr%26gt%3BWeb%20framework%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dleft%3BverticalAlign%3Dtop%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2250%22%20y%3D%22580%22%20width%3D%22560%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;font face=&quot;monospace&quot; color=&quot;rgba(0, 0, 0, 0)&quot;&gt;&lt;span style=&quot;font-size: 0px;&quot;&gt;https://pkg.go.dev/k8s.io/apimachinery&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;Used to build the ApplicationDeployment CRD&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="640" width="560" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Lj5Enr_u-UPzHEAFbVZE-1" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-180;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="-40" width="165" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="Lj5Enr_u-UPzHEAFbVZE-2" value="uses go templates to generate HTML" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="-30" width="105" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Lj5Enr_u-UPzHEAFbVZE-3" value="" style="endArrow=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="wAj2Fj4kqgVoYcOP3Q3Q-7" target="Lj5Enr_u-UPzHEAFbVZE-1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="490" as="sourcePoint"/>
+                        <mxPoint x="540" y="-50" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="OBgjvxRboIv3XSihqe7H" name="WoA Details">
+        <mxGraphModel dx="1213" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="sbn14iCNnabMABGZ2EJ4-1" value="device: K3s VM" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;labelBackgroundColor=default;align=center;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="40" width="520" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="jYhYrTWfhaWukOMRkzlI-1" value="pod" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="90" width="190" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="sbn14iCNnabMABGZ2EJ4-3" value="gitops_client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="120" width="170" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="IMRdRecZfqsaXnLjta1G-1" value="Language: Go&lt;div&gt;&lt;br&gt;Primary Libraries:&lt;/div&gt;&lt;div&gt;- go-git&lt;/div&gt;&lt;div&gt;- k8s.io/apimachinery&lt;/div&gt;&lt;div&gt;- k8s.io/client-go&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="150" width="150" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="Gb2Czu_O7h6AcETDw0Y0-1" value="pod" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="80" width="190" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="sbn14iCNnabMABGZ2EJ4-4" value="agent_operator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="110" width="170" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="Gb2Czu_O7h6AcETDw0Y0-2" value="Kubernetes Operator&lt;br&gt;&lt;br&gt;Language: Go&lt;div&gt;&lt;br&gt;Primary Libraries:&lt;/div&gt;&lt;div&gt;- helm&lt;/div&gt;&lt;div&gt;- k8s.io/apimachinery&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="140" width="140" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="Gb2Czu_O7h6AcETDw0Y0-5" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-180;" parent="1" vertex="1">
+                    <mxGeometry x="820" y="70" width="165" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="Gb2Czu_O7h6AcETDw0Y0-6" value="Built using the Operator SKD" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="830" y="80" width="105" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Gb2Czu_O7h6AcETDw0Y0-7" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="sbn14iCNnabMABGZ2EJ4-4" target="Gb2Czu_O7h6AcETDw0Y0-5" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="810" y="430" as="sourcePoint"/>
+                        <mxPoint x="860" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Gb2Czu_O7h6AcETDw0Y0-8" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-180;" parent="1" vertex="1">
+                    <mxGeometry x="820" y="140" width="165" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="Gb2Czu_O7h6AcETDw0Y0-9" value="Implements CRD matching Margo's&lt;br&gt;ApplicationDeployment" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="150" width="125" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Gb2Czu_O7h6AcETDw0Y0-10" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sbn14iCNnabMABGZ2EJ4-4" target="Gb2Czu_O7h6AcETDw0Y0-8" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="730" y="163" as="sourcePoint"/>
+                        <mxPoint x="810" y="190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Q3kZeZFUy4KxCdRvF1uZ-1" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-180;" parent="1" vertex="1">
+                    <mxGeometry x="820" y="210" width="165" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="Q3kZeZFUy4KxCdRvF1uZ-3" value="Installs the helm chart using the helm client library" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="220" width="125" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Q3kZeZFUy4KxCdRvF1uZ-4" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="sbn14iCNnabMABGZ2EJ4-4" target="Q3kZeZFUy4KxCdRvF1uZ-1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="840" y="420" as="sourcePoint"/>
+                        <mxPoint x="890" y="370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Q3kZeZFUy4KxCdRvF1uZ-6" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=0;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="90" width="165" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="Q3kZeZFUy4KxCdRvF1uZ-7" value="Uses the kubernetes client library to add the ApplicationDeployment CRD&amp;nbsp; instance to Kubernetes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="110" width="125" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Q3kZeZFUy4KxCdRvF1uZ-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Q3kZeZFUy4KxCdRvF1uZ-6" target="sbn14iCNnabMABGZ2EJ4-3" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="80" y="420" as="sourcePoint"/>
+                        <mxPoint x="130" y="370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="sAWvCKWFPhzT-J_e_TvR-1" value="&lt;b&gt;k8s.io/apimachinery&lt;/b&gt; -&amp;nbsp;&amp;nbsp;https://pkg.go.dev/k8s.io/apimachinery&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22gin%20-%26amp%3Bnbsp%3Bhttps%3A%2F%2Fgithub.com%2Fgin-gonic%2Fgin%26lt%3Bbr%26gt%3B%26lt%3Bbr%26gt%3BWeb%20framework%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dleft%3BverticalAlign%3Dtop%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2250%22%20y%3D%22580%22%20width%3D%22560%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;font face=&quot;monospace&quot; color=&quot;rgba(0, 0, 0, 0)&quot;&gt;&lt;span style=&quot;font-size: 0px;&quot;&gt;https://pkg.go.dev/k8s.io/apimachinery&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;Used to read the ApplicationDeployment CRD&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="400" width="560" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="mZC_RM4c6uSA87UuOgWS-1" value="&lt;b&gt;go-git&lt;/b&gt; -&amp;nbsp;https://github.com/go-git/go-git&lt;br&gt;&lt;br&gt;Git client library because used to communicate with the Gogs git server" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="320" width="560" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="mZC_RM4c6uSA87UuOgWS-2" value="&lt;b&gt;k8s.io/client-go&lt;/b&gt; -&amp;nbsp; https://pkg.go.dev/k8s.io/client-go&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22gin%20-%26amp%3Bnbsp%3Bhttps%3A%2F%2Fgithub.com%2Fgin-gonic%2Fgin%26lt%3Bbr%26gt%3B%26lt%3Bbr%26gt%3BWeb%20framework%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dleft%3BverticalAlign%3Dtop%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2250%22%20y%3D%22580%22%20width%3D%22560%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;font face=&quot;monospace&quot; color=&quot;rgba(0, 0, 0, 0)&quot;&gt;&lt;span style=&quot;font-size: 0px;&quot;&gt;https://pkg.go.dev/k8s.io/apimachinery&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;Client used to communicate with Kubernetes API. Used to read/write the ApplicationDeployment CRD" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="480" width="560" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="mZC_RM4c6uSA87UuOgWS-3" value="&lt;b&gt;helm&lt;/b&gt; -&amp;nbsp; https://pkg.go.dev/helm.sh/helm/v3&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22gin%20-%26amp%3Bnbsp%3Bhttps%3A%2F%2Fgithub.com%2Fgin-gonic%2Fgin%26lt%3Bbr%26gt%3B%26lt%3Bbr%26gt%3BWeb%20framework%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dleft%3BverticalAlign%3Dtop%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2250%22%20y%3D%22580%22%20width%3D%22560%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;font face=&quot;monospace&quot; color=&quot;rgba(0, 0, 0, 0)&quot;&gt;&lt;span style=&quot;font-size: 0px;&quot;&gt;https://pkg.go.dev/k8s.io/apimachinery&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;Helm library. Used install/uninstall the helm charts" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="560" width="560" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
