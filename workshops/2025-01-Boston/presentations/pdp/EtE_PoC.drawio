@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e" pages="3">
     <diagram id="jRNFFETprJHWr_L_O-vm" name="Prototype Detailed">
-        <mxGraphModel dx="1213" dy="750" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="821" dy="799" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -147,7 +147,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="coyob9iYdWIeE31MWj5S" name="WoS Details">
-        <mxGraphModel dx="1213" dy="1850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="821" dy="1899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -212,22 +212,22 @@
                 <mxCell id="wAj2Fj4kqgVoYcOP3Q3Q-13" value="Language: Go&lt;div&gt;&lt;br&gt;Primary Libraries:&lt;/div&gt;&lt;div&gt;- go-git&lt;/div&gt;&lt;div&gt;- rabbitmq&lt;/div&gt;&lt;div&gt;- k8s.io/apimachinery&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="735" y="318" width="125" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="HCA6MgcSXJYA6LkpT8CB-3" value="&lt;b&gt;go-git&lt;/b&gt; -&amp;nbsp;https://github.com/go-git/go-git&lt;br&gt;&lt;br&gt;Git client library because used to communicate with the Gogs git server" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="HCA6MgcSXJYA6LkpT8CB-3" value="&lt;b&gt;go-git&lt;/b&gt; -&amp;nbsp;https://github.com/go-git/go-git&lt;br&gt;&lt;br&gt;Git client library because used to communicate with the Gogs git server" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="40" y="480" width="560" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="HCA6MgcSXJYA6LkpT8CB-5" value="&lt;b&gt;gin&lt;/b&gt; -&amp;nbsp;https://github.com/gin-gonic/gin&lt;br&gt;&lt;br&gt;Web framework to make it easier to create web application" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="HCA6MgcSXJYA6LkpT8CB-5" value="&lt;b&gt;gin&lt;/b&gt; -&amp;nbsp;https://github.com/gin-gonic/gin&lt;br&gt;&lt;br&gt;Web framework to make it easier to create web application" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="40" y="560" width="560" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="HCA6MgcSXJYA6LkpT8CB-6" value="&lt;b&gt;k8s.io/apimachinery&lt;/b&gt; -&amp;nbsp;&amp;nbsp;https://pkg.go.dev/k8s.io/apimachinery&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22gin%20-%26amp%3Bnbsp%3Bhttps%3A%2F%2Fgithub.com%2Fgin-gonic%2Fgin%26lt%3Bbr%26gt%3B%26lt%3Bbr%26gt%3BWeb%20framework%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dleft%3BverticalAlign%3Dtop%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2250%22%20y%3D%22580%22%20width%3D%22560%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;font face=&quot;monospace&quot; color=&quot;rgba(0, 0, 0, 0)&quot;&gt;&lt;span style=&quot;font-size: 0px;&quot;&gt;https://pkg.go.dev/k8s.io/apimachinery&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;Used to build the ApplicationDeployment CRD&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="HCA6MgcSXJYA6LkpT8CB-6" value="&lt;b&gt;k8s.io/apimachinery&lt;/b&gt; -&amp;nbsp;&amp;nbsp;https://pkg.go.dev/k8s.io/apimachinery&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22gin%20-%26amp%3Bnbsp%3Bhttps%3A%2F%2Fgithub.com%2Fgin-gonic%2Fgin%26lt%3Bbr%26gt%3B%26lt%3Bbr%26gt%3BWeb%20framework%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dleft%3BverticalAlign%3Dtop%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2250%22%20y%3D%22580%22%20width%3D%22560%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;font face=&quot;monospace&quot; color=&quot;rgba(0, 0, 0, 0)&quot;&gt;&lt;span style=&quot;font-size: 0px;&quot;&gt;https://pkg.go.dev/k8s.io/apimachinery&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;Used to build the ApplicationDeployment CRD&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="40" y="640" width="560" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="Lj5Enr_u-UPzHEAFbVZE-1" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-180;" vertex="1" parent="1">
+                <mxCell id="Lj5Enr_u-UPzHEAFbVZE-1" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-180;" parent="1" vertex="1">
                     <mxGeometry x="610" y="-40" width="165" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="Lj5Enr_u-UPzHEAFbVZE-2" value="uses go templates to generate HTML" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="Lj5Enr_u-UPzHEAFbVZE-2" value="uses go templates to generate HTML" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="620" y="-30" width="105" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="Lj5Enr_u-UPzHEAFbVZE-3" value="" style="endArrow=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="wAj2Fj4kqgVoYcOP3Q3Q-7" target="Lj5Enr_u-UPzHEAFbVZE-1">
+                <mxCell id="Lj5Enr_u-UPzHEAFbVZE-3" value="" style="endArrow=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="wAj2Fj4kqgVoYcOP3Q3Q-7" target="Lj5Enr_u-UPzHEAFbVZE-1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="490" as="sourcePoint"/>
                         <mxPoint x="540" y="-50" as="targetPoint"/>
@@ -237,7 +237,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="OBgjvxRboIv3XSihqe7H" name="WoA Details">
-        <mxGraphModel dx="1213" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="821" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -310,17 +310,43 @@
                         <mxPoint x="130" y="370" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="sAWvCKWFPhzT-J_e_TvR-1" value="&lt;b&gt;k8s.io/apimachinery&lt;/b&gt; -&amp;nbsp;&amp;nbsp;https://pkg.go.dev/k8s.io/apimachinery&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22gin%20-%26amp%3Bnbsp%3Bhttps%3A%2F%2Fgithub.com%2Fgin-gonic%2Fgin%26lt%3Bbr%26gt%3B%26lt%3Bbr%26gt%3BWeb%20framework%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dleft%3BverticalAlign%3Dtop%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2250%22%20y%3D%22580%22%20width%3D%22560%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;font face=&quot;monospace&quot; color=&quot;rgba(0, 0, 0, 0)&quot;&gt;&lt;span style=&quot;font-size: 0px;&quot;&gt;https://pkg.go.dev/k8s.io/apimachinery&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;Used to read the ApplicationDeployment CRD&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="sAWvCKWFPhzT-J_e_TvR-1" value="&lt;b&gt;k8s.io/apimachinery&lt;/b&gt; -&amp;nbsp;&amp;nbsp;https://pkg.go.dev/k8s.io/apimachinery&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22gin%20-%26amp%3Bnbsp%3Bhttps%3A%2F%2Fgithub.com%2Fgin-gonic%2Fgin%26lt%3Bbr%26gt%3B%26lt%3Bbr%26gt%3BWeb%20framework%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dleft%3BverticalAlign%3Dtop%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2250%22%20y%3D%22580%22%20width%3D%22560%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;font face=&quot;monospace&quot; color=&quot;rgba(0, 0, 0, 0)&quot;&gt;&lt;span style=&quot;font-size: 0px;&quot;&gt;https://pkg.go.dev/k8s.io/apimachinery&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;Used to read the ApplicationDeployment CRD&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="240" y="400" width="560" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="mZC_RM4c6uSA87UuOgWS-1" value="&lt;b&gt;go-git&lt;/b&gt; -&amp;nbsp;https://github.com/go-git/go-git&lt;br&gt;&lt;br&gt;Git client library because used to communicate with the Gogs git server" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="mZC_RM4c6uSA87UuOgWS-1" value="&lt;b&gt;go-git&lt;/b&gt; -&amp;nbsp;https://github.com/go-git/go-git&lt;br&gt;&lt;br&gt;Git client library because used to communicate with the Gogs git server" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="240" y="320" width="560" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="mZC_RM4c6uSA87UuOgWS-2" value="&lt;b&gt;k8s.io/client-go&lt;/b&gt; -&amp;nbsp; https://pkg.go.dev/k8s.io/client-go&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22gin%20-%26amp%3Bnbsp%3Bhttps%3A%2F%2Fgithub.com%2Fgin-gonic%2Fgin%26lt%3Bbr%26gt%3B%26lt%3Bbr%26gt%3BWeb%20framework%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dleft%3BverticalAlign%3Dtop%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2250%22%20y%3D%22580%22%20width%3D%22560%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;font face=&quot;monospace&quot; color=&quot;rgba(0, 0, 0, 0)&quot;&gt;&lt;span style=&quot;font-size: 0px;&quot;&gt;https://pkg.go.dev/k8s.io/apimachinery&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;Client used to communicate with Kubernetes API. Used to read/write the ApplicationDeployment CRD" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="mZC_RM4c6uSA87UuOgWS-2" value="&lt;b&gt;k8s.io/client-go&lt;/b&gt; -&amp;nbsp; https://pkg.go.dev/k8s.io/client-go&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22gin%20-%26amp%3Bnbsp%3Bhttps%3A%2F%2Fgithub.com%2Fgin-gonic%2Fgin%26lt%3Bbr%26gt%3B%26lt%3Bbr%26gt%3BWeb%20framework%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dleft%3BverticalAlign%3Dtop%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2250%22%20y%3D%22580%22%20width%3D%22560%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;font face=&quot;monospace&quot; color=&quot;rgba(0, 0, 0, 0)&quot;&gt;&lt;span style=&quot;font-size: 0px;&quot;&gt;https://pkg.go.dev/k8s.io/apimachinery&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;Client used to communicate with Kubernetes API. Used to read/write the ApplicationDeployment CRD" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="240" y="480" width="560" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="mZC_RM4c6uSA87UuOgWS-3" value="&lt;b&gt;helm&lt;/b&gt; -&amp;nbsp; https://pkg.go.dev/helm.sh/helm/v3&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22gin%20-%26amp%3Bnbsp%3Bhttps%3A%2F%2Fgithub.com%2Fgin-gonic%2Fgin%26lt%3Bbr%26gt%3B%26lt%3Bbr%26gt%3BWeb%20framework%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dleft%3BverticalAlign%3Dtop%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2250%22%20y%3D%22580%22%20width%3D%22560%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;font face=&quot;monospace&quot; color=&quot;rgba(0, 0, 0, 0)&quot;&gt;&lt;span style=&quot;font-size: 0px;&quot;&gt;https://pkg.go.dev/k8s.io/apimachinery&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;Helm library. Used install/uninstall the helm charts" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="mZC_RM4c6uSA87UuOgWS-3" value="&lt;b&gt;helm&lt;/b&gt; -&amp;nbsp; https://pkg.go.dev/helm.sh/helm/v3&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22gin%20-%26amp%3Bnbsp%3Bhttps%3A%2F%2Fgithub.com%2Fgin-gonic%2Fgin%26lt%3Bbr%26gt%3B%26lt%3Bbr%26gt%3BWeb%20framework%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dleft%3BverticalAlign%3Dtop%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2250%22%20y%3D%22580%22%20width%3D%22560%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;font face=&quot;monospace&quot; color=&quot;rgba(0, 0, 0, 0)&quot;&gt;&lt;span style=&quot;font-size: 0px;&quot;&gt;https://pkg.go.dev/k8s.io/apimachinery&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;Helm library. Used install/uninstall the helm charts" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="240" y="560" width="560" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="kZh4mr43l9BdsefiApG-" name="Resources">
+        <mxGraphModel dx="821" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="Qw_wTaYiSIV62lAQOYiu-1" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="80" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Qw_wTaYiSIV62lAQOYiu-2" value="Application Development" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="40" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Qw_wTaYiSIV62lAQOYiu-3" value="Implement services, UI, APIs, etc." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="70" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Qw_wTaYiSIV62lAQOYiu-4" value="Infrastructure Development" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="790" y="40" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Qw_wTaYiSIV62lAQOYiu-5" value="Build helm charts, docker compose files, VMs, physical device artifacts, etc." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="790" y="70" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Qw_wTaYiSIV62lAQOYiu-6" value="Both" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="40" width="200" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
