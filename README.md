@@ -5,8 +5,17 @@ Repository for Technical Working Group facilitation
     * Meeting minutes are attached to the Meeting agenda MDs then the issue is closed for record keeping.
 * General Information regarding the current Focus groups and planned focus groups for the Margo Release 1 System Design.
 
+***
+
+## TWG Discussion Documents
+All documents discussed at the TWG level can be [found here](https://drive.google.com/drive/folders/1et9nZXHUgJ_4IehcyWQdxo3XRpIKcWBS?usp=sharing)
+
+***
+
 ## Overall Margo Release 1 Github Project
 * https://github.com/orgs/margo/projects/7
+
+***
 
 ## Current Technical Focus Group Details
 Below are details regarding the current focus groups, leads, meeting information, associated Github Project, and associated markdowns within the specification repository. 
@@ -49,6 +58,7 @@ Below are details regarding the current focus groups, leads, meeting information
     * https://github.com/orgs/margo/projects/4
 * Associated Mardowns within specification repository
      * [Observability](https://github.com/margo/specification/blob/pre-draft/system-design/app-interoperability/observability.md)
+***
 
 ## Future Planned Focus Group Details
 Note: These are theoretical focus groups that ensure coverage for the full envisioned system design within Margo. We are looking for volunteers/contributers within these focus groups. 
@@ -73,3 +83,4 @@ Note: These are theoretical focus groups that ensure coverage for the full envis
 ### FG: Official Reference Implementation
 * Short Description: This focus group is intended to work on the official reference implementation.
 
+***
