@@ -6,6 +6,12 @@ Repository for Technical Working Group facilitation
 * General Information regarding the current Focus groups and planned focus groups for the Margo Release 1 System Design.
 
 ***
+## TWG Charter Agreement
+- **Working Group Scope** - Fulfill the project technical oversight to achieve edge-based interoperability across automation vendors, system integrators and platform providers. The intended result will allow edge devices, apps, and orchestration software, sourced from multiple suppliers to be interoperable in heterogenous industrial ecosystems. The working group is responsible to develop and maintain an open-source reference implementation, define and maintain associated open interoperability standards, develop and maintain a compliance framework, process and tooling. Activities also would include education and training for adopters. 
+- **Copyright Licensing** - Open Web Foundation 0.9.
+- **Patent Licensing** - Open Web Foundation Agreement 0.9 Mode.
+- **Source Code** - MIT License, available at https://opensource.org/licenses/MIT. 
+***
 
 ## TWG Discussion Documents
 All documents discussed at the TWG level can be [found here](https://drive.google.com/drive/folders/1et9nZXHUgJ_4IehcyWQdxo3XRpIKcWBS?usp=sharing)
