@@ -1,10 +1,5 @@
 These feedback questions were received via email from Erik.
 
-Notes:
--	FWIW this is not the topics that matter to me. I want to make sure that
-Symphony does not make assumptions about the overall system and
-environment which might make hard to fit Margo into Symphony.
-
 Examples questions on my list are:
 -	The demo showed several "cert*" containers and the docs have an empty page about the cert management. What assumptions does Symphony make about the use of certificates and CAs?
 -	How does the Symphony fleet manager uniquely identify a particular device? (Using a name? A uuid? A client certificate? Something else?)
