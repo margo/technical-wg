@@ -12,11 +12,12 @@ And how we could integrate Margo’s into it
 Deployment specification
 Application description
 Device Description
+
 Back-end storage
 Visual only GUI
 OTEL Backend
 
-3. Symphony Agent
+4. Symphony Agent
 https://github.com/eclipse-symphony/symphony/blob/main/docs/symphony-book/agent/_overview.md
 Components
 Currently the Symphony agent package has many providers included.
