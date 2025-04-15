@@ -14,3 +14,5 @@ Our suggestion is to extend the agent capabilities to support a process comprisi
 - The sessions can then be actively terminated by either side, or timed out.
 
 This process covers the call home-separated option and should give the Margo community a good understanding of the benefits and potential shortcomings of the approach.
+
+[Haishi] We are working on a new version of the agent that supports a bootstrapping process where the agent presents a bootstrapping certificate to exchange for a working certificate. Since Symphony is a state-seeking system, we haven't identified use cases that mandate a live session (which is less scalable). On the other hand, Symphony is extensible by introducing new vendors into the API surface. For instance, a new command-and-control vendor can be introduced to support such scenarios where a custom/extra agent can be used to actively receive commands from the server.  
